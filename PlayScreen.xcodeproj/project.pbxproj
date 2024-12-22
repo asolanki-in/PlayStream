@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277D867A2CDFB23400B3ED21 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277D86792CDFB23300B3ED21 /* ReplayKit.framework */; };
+		277D86842CDFB23400B3ED21 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277D86792CDFB23300B3ED21 /* ReplayKit.framework */; };
+		277D86862CDFB23400B3ED21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277D86852CDFB23400B3ED21 /* UIKit.framework */; };
+		277D868D2CDFB23400B3ED21 /* PlayExtensionSetupUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 277D86832CDFB23400B3ED21 /* PlayExtensionSetupUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		277D86902CDFB23400B3ED21 /* PlayExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 277D86772CDFB23300B3ED21 /* PlayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27823DF22D0EDB170060A49E /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 27823DF12D0EDB170060A49E /* CocoaAsyncSocket */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		277D868B2CDFB23400B3ED21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277D86512CDFB1E300B3ED21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277D86822CDFB23400B3ED21;
+			remoteInfo = PlayExtensionSetupUI;
+		};
+		277D868E2CDFB23400B3ED21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277D86512CDFB1E300B3ED21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277D86762CDFB23300B3ED21;
+			remoteInfo = PlayExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		277D86912CDFB23400B3ED21 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				277D86902CDFB23400B3ED21 /* PlayExtension.appex in Embed Foundation Extensions */,
+				277D868D2CDFB23400B3ED21 /* PlayExtensionSetupUI.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		277D86592CDFB1E300B3ED21 /* PlayScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277D86772CDFB23300B3ED21 /* PlayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		277D86792CDFB23300B3ED21 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		277D86832CDFB23400B3ED21 /* PlayExtensionSetupUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlayExtensionSetupUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		277D86852CDFB23400B3ED21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		277D86962CDFB23400B3ED21 /* Exceptions for "PlayExtension" folder in "PlayExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 277D86762CDFB23300B3ED21 /* PlayExtension */;
+		};
+		277D86982CDFB23400B3ED21 /* Exceptions for "PlayExtensionSetupUI" folder in "PlayExtensionSetupUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 277D86822CDFB23400B3ED21 /* PlayExtensionSetupUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		277D865B2CDFB1E300B3ED21 /* PlayScreen */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlayScreen;
+			sourceTree = "<group>";
+		};
+		277D867B2CDFB23400B3ED21 /* PlayExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				277D86962CDFB23400B3ED21 /* Exceptions for "PlayExtension" folder in "PlayExtension" target */,
+			);
+			path = PlayExtension;
+			sourceTree = "<group>";
+		};
+		277D86872CDFB23400B3ED21 /* PlayExtensionSetupUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				277D86982CDFB23400B3ED21 /* Exceptions for "PlayExtensionSetupUI" folder in "PlayExtensionSetupUI" target */,
+			);
+			path = PlayExtensionSetupUI;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277D86562CDFB1E300B3ED21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277D86742CDFB23300B3ED21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27823DF22D0EDB170060A49E /* CocoaAsyncSocket in Frameworks */,
+				277D867A2CDFB23400B3ED21 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277D86802CDFB23400B3ED21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277D86842CDFB23400B3ED21 /* ReplayKit.framework in Frameworks */,
+				277D86862CDFB23400B3ED21 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277D86502CDFB1E300B3ED21 = {
+			isa = PBXGroup;
+			children = (
+				277D865B2CDFB1E300B3ED21 /* PlayScreen */,
+				277D867B2CDFB23400B3ED21 /* PlayExtension */,
+				277D86872CDFB23400B3ED21 /* PlayExtensionSetupUI */,
+				277D86782CDFB23300B3ED21 /* Frameworks */,
+				277D865A2CDFB1E300B3ED21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277D865A2CDFB1E300B3ED21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277D86592CDFB1E300B3ED21 /* PlayScreen.app */,
+				277D86772CDFB23300B3ED21 /* PlayExtension.appex */,
+				277D86832CDFB23400B3ED21 /* PlayExtensionSetupUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277D86782CDFB23300B3ED21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				277D86792CDFB23300B3ED21 /* ReplayKit.framework */,
+				277D86852CDFB23400B3ED21 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277D86582CDFB1E300B3ED21 /* PlayScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277D86672CDFB1E500B3ED21 /* Build configuration list for PBXNativeTarget "PlayScreen" */;
+			buildPhases = (
+				277D86552CDFB1E300B3ED21 /* Sources */,
+				277D86562CDFB1E300B3ED21 /* Frameworks */,
+				277D86572CDFB1E300B3ED21 /* Resources */,
+				277D86912CDFB23400B3ED21 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277D868C2CDFB23400B3ED21 /* PBXTargetDependency */,
+				277D868F2CDFB23400B3ED21 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				277D865B2CDFB1E300B3ED21 /* PlayScreen */,
+			);
+			name = PlayScreen;
+			packageProductDependencies = (
+			);
+			productName = PlayScreen;
+			productReference = 277D86592CDFB1E300B3ED21 /* PlayScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		277D86762CDFB23300B3ED21 /* PlayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277D86972CDFB23400B3ED21 /* Build configuration list for PBXNativeTarget "PlayExtension" */;
+			buildPhases = (
+				277D86732CDFB23300B3ED21 /* Sources */,
+				277D86742CDFB23300B3ED21 /* Frameworks */,
+				277D86752CDFB23300B3ED21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				277D867B2CDFB23400B3ED21 /* PlayExtension */,
+			);
+			name = PlayExtension;
+			packageProductDependencies = (
+				27823DF12D0EDB170060A49E /* CocoaAsyncSocket */,
+			);
+			productName = PlayExtension;
+			productReference = 277D86772CDFB23300B3ED21 /* PlayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		277D86822CDFB23400B3ED21 /* PlayExtensionSetupUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277D86992CDFB23400B3ED21 /* Build configuration list for PBXNativeTarget "PlayExtensionSetupUI" */;
+			buildPhases = (
+				277D867F2CDFB23400B3ED21 /* Sources */,
+				277D86802CDFB23400B3ED21 /* Frameworks */,
+				277D86812CDFB23400B3ED21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				277D86872CDFB23400B3ED21 /* PlayExtensionSetupUI */,
+			);
+			name = PlayExtensionSetupUI;
+			packageProductDependencies = (
+			);
+			productName = PlayExtensionSetupUI;
+			productReference = 277D86832CDFB23400B3ED21 /* PlayExtensionSetupUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277D86512CDFB1E300B3ED21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					277D86582CDFB1E300B3ED21 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					277D86762CDFB23300B3ED21 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					277D86822CDFB23400B3ED21 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 277D86542CDFB1E300B3ED21 /* Build configuration list for PBXProject "PlayScreen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277D86502CDFB1E300B3ED21;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				27823DF02D0EDB170060A49E /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 277D865A2CDFB1E300B3ED21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277D86582CDFB1E300B3ED21 /* PlayScreen */,
+				277D86762CDFB23300B3ED21 /* PlayExtension */,
+				277D86822CDFB23400B3ED21 /* PlayExtensionSetupUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277D86572CDFB1E300B3ED21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277D86752CDFB23300B3ED21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277D86812CDFB23400B3ED21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277D86552CDFB1E300B3ED21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277D86732CDFB23300B3ED21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277D867F2CDFB23400B3ED21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		277D868C2CDFB23400B3ED21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277D86822CDFB23400B3ED21 /* PlayExtensionSetupUI */;
+			targetProxy = 277D868B2CDFB23400B3ED21 /* PBXContainerItemProxy */;
+		};
+		277D868F2CDFB23400B3ED21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277D86762CDFB23300B3ED21 /* PlayExtension */;
+			targetProxy = 277D868E2CDFB23400B3ED21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		277D86652CDFB1E500B3ED21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		277D86662CDFB1E500B3ED21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		277D86682CDFB1E500B3ED21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlayScreen/Preview Content\"";
+				DEVELOPMENT_TEAM = 522EW6L79G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Let me use microphone also to record screen";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibridge.PlayScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		277D86692CDFB1E500B3ED21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlayScreen/Preview Content\"";
+				DEVELOPMENT_TEAM = 522EW6L79G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Let me use microphone also to record screen";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibridge.PlayScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		277D86922CDFB23400B3ED21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 522EW6L79G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlayExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibridge.PlayScreen.PlayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		277D86932CDFB23400B3ED21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 522EW6L79G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlayExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibridge.PlayScreen.PlayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		277D86942CDFB23400B3ED21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 522EW6L79G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayExtensionSetupUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlayExtensionSetupUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibridge.PlayScreen.PlayExtensionSetupUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		277D86952CDFB23400B3ED21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 522EW6L79G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayExtensionSetupUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlayExtensionSetupUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibridge.PlayScreen.PlayExtensionSetupUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277D86542CDFB1E300B3ED21 /* Build configuration list for PBXProject "PlayScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277D86652CDFB1E500B3ED21 /* Debug */,
+				277D86662CDFB1E500B3ED21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277D86672CDFB1E500B3ED21 /* Build configuration list for PBXNativeTarget "PlayScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277D86682CDFB1E500B3ED21 /* Debug */,
+				277D86692CDFB1E500B3ED21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277D86972CDFB23400B3ED21 /* Build configuration list for PBXNativeTarget "PlayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277D86922CDFB23400B3ED21 /* Debug */,
+				277D86932CDFB23400B3ED21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277D86992CDFB23400B3ED21 /* Build configuration list for PBXNativeTarget "PlayExtensionSetupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277D86942CDFB23400B3ED21 /* Debug */,
+				277D86952CDFB23400B3ED21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27823DF02D0EDB170060A49E /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.6.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27823DF12D0EDB170060A49E /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27823DF02D0EDB170060A49E /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 277D86512CDFB1E300B3ED21 /* Project object */;
+}
